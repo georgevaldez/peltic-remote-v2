@@ -1609,8 +1609,8 @@ class RustdeskImpl {
   }
 
   bool isCustomClient({dynamic hint}) {
-    // is_custom_client() checks if app name is not "Remote Peltic Support"
-    return mainGetAppNameSync(hint: hint) != "Remote Peltic Support";
+    // is_custom_client() checks if app name is not "RustDesk"
+    return mainGetAppNameSync(hint: hint) != "RustDesk";
   }
 
   bool isDisableSettings({dynamic hint}) {

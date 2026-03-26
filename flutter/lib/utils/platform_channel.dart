@@ -5,7 +5,7 @@ import 'package:flutter_hbb/common.dart';
 
 enum SystemWindowTheme { light, dark }
 
-/// The platform channel for Remote Peltic Support.
+/// The platform channel for RustDesk.
 class RdPlatformChannel {
   RdPlatformChannel._();
 
